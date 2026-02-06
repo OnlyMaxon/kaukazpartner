@@ -1,0 +1,80 @@
+{
+  "en": [
+    {
+      "name": "Dmitry K.",
+      "role": "Uber Driver",
+      "rating": 5,
+      "text": "Kaukaz Partner helped me start working legally in Warsaw within a week. Great support and transparent process!"
+    },
+    {
+      "name": "Anna M.",
+      "role": "Wolt Courier",
+      "rating": 5,
+      "text": "Finally found a company that actually helps. All documents sorted, started earning immediately. Highly recommend!"
+    },
+    {
+      "name": "Sergei P.",
+      "role": "Bolt Driver",
+      "rating": 5,
+      "text": "The car rental service is excellent. Clean cars, fair prices, and 24/7 support. Perfect for newcomers."
+    },
+    {
+      "name": "Maria L.",
+      "role": "Glovo Courier",
+      "rating": 5,
+      "text": "Professional team that really cares. They explained everything clearly and helped me with all paperwork."
+    }
+  ],
+  "pl": [
+    {
+      "name": "Dmitry K.",
+      "role": "Kierowca Uber",
+      "rating": 5,
+      "text": "Kaukaz Partner pomógł mi zacząć legalnie pracować w Warszawie w ciągu tygodnia. Świetne wsparcie i przejrzysty proces!"
+    },
+    {
+      "name": "Anna M.",
+      "role": "Kurier Wolt",
+      "rating": 5,
+      "text": "W końcu znalazłam firmę, która naprawdę pomaga. Wszystkie dokumenty załatwione, od razu zaczęłam zarabiać. Gorąco polecam!"
+    },
+    {
+      "name": "Sergei P.",
+      "role": "Kierowca Bolt",
+      "rating": 5,
+      "text": "Usługa wynajmu samochodów jest doskonała. Czyste samochody, uczciwe ceny i wsparcie 24/7. Idealny dla nowych."
+    },
+    {
+      "name": "Maria L.",
+      "role": "Kurier Glovo",
+      "rating": 5,
+      "text": "Profesjonalny zespół, któremu naprawdę zależy. Wszystko jasno wyjaśnili i pomogli mi ze wszystkimi dokumentami."
+    }
+  ],
+  "ru": [
+    {
+      "name": "Дмитрий К.",
+      "role": "Водитель Uber",
+      "rating": 5,
+      "text": "Kaukaz Partner помог мне начать легально работать в Варшаве за неделю. Отличная поддержка и прозрачный процесс!"
+    },
+    {
+      "name": "Анна М.",
+      "role": "Курьер Wolt",
+      "rating": 5,
+      "text": "Наконец нашла компанию, которая реально помогает. Все документы оформлены, сразу начала зарабатывать. Очень рекомендую!"
+    },
+    {
+      "name": "Сергей П.",
+      "role": "Водитель Bolt",
+      "rating": 5,
+      "text": "Сервис аренды автомобилей отличный. Чистые машины, честные цены и поддержка 24/7. Идеально для новичков."
+    },
+    {
+      "name": "Мария Л.",
+      "role": "Курьер Glovo",
+      "rating": 5,
+      "text": "Профессиональная команда, которой действительно не всё равно. Всё чётко объяснили и помогли со всеми документами."
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "nav": {
+    "work": "Praca",
+    "carRental": "Wynajem Samochodu",
+    "aboutUs": "O Nas",
+    "blog": "Blog",
+    "contacts": "Kontakt"
+  },
+  "hero": {
+    "trustSignal": "Zaufało nam ponad 1000 kierowców i kurierów",
+    "title": "Elastyczna Praca w Warszawie",
+    "titleAccent": "Zarabiaj Legalnie",
+    "subtitle": "Jedź dla Ubera, Bolta, FreeNow lub dostarczaj z Woltem, Glovo. Oficjalnie, legalnie, stabilny dochód.",
+    "cta": "Zacznij Pracować Dzisiaj",
+    "learnMore": "Dowiedz się Więcej",
+    "features": {
+      "official": "Oficjalnie i Legalnie",
+      "flexible": "Elastyczny Harmonogram",
+      "support": "Wsparcie 24/7"
+    }
+  },
+  "work": {
+    "title": "Możliwości Pracy",
+    "subtitle": "Wybierz swoją drogę do stabilnego dochodu",
+    "driver": {
+      "title": "Kierowca",
+      "type": "Usługi Taksówkowe",
+      "description": "Zostań oficjalnym kierowcą taxi w Warszawie z pełnym wsparciem prawnym i konkurencyjnymi zarobkami.",
+      "income": "Stabilny Dochód",
+      "hours": "Elastyczne Godziny"
+    },
+    "courier": {
+      "title": "Kurier",
+      "type": "Usługi Dostawcze",
+      "description": "Dołącz do branży dostaw z elastycznymi godzinami i stałymi zarobkami w Warszawie.",
+      "income": "Codzienne Wypłaty",
+      "hours": "Pracuj Kiedy Chcesz"
+    },
+    "getStarted": "Rozpocznij"
+  },
+  "howItWorks": {
+    "title": "Jak To Działa",
+    "subtitle": "Rozpocznij swoją podróż w 4 prostych krokach",
+    "steps": [
+      {
+        "title": "Aplikacja",
+        "description": "Złóż aplikację przez nasz prosty formularz online. Bez skomplikowanych dokumentów."
+      },
+      {
+        "title": "Weryfikacja",
+        "description": "Weryfikujemy Twoje dokumenty i pomagamy spełnić wszystkie oficjalne wymagania do legalnej pracy w Polsce."
+      },
+      {
+        "title": "Szkolenie i Konfiguracja",
+        "description": "Zostań wprowadzony na platformy, otrzymaj szkolenie i skorzystaj z naszego wynajmu samochodu jeśli potrzebujesz."
+      },
+      {
+        "title": "Zacznij Zarabiać",
+        "description": "Zacznij pracować natychmiast z pełnym wsparciem i stabilnymi możliwościami zarobku w Warszawie."
+      }
+    ]
+  },
+  "carRental": {
+    "title": "Usługi Wynajmu Samochodu",
+    "subtitle": "Nie masz samochodu? Żaden problem! Wynajmij pojazd od nas i zacznij pracować natychmiast.",
+    "features": {
+      "fleet": {
+        "title": "Nowoczesna Flota",
+        "description": "Zadbane pojazdy odpowiednie dla Ubera, Bolta i FreeNow"
+      },
+      "insurance": {
+        "title": "Pełne Ubezpieczenie",
+        "description": "Kompleksowe ubezpieczenie wliczone w wynajem"
+      },
+      "maintenance": {
+        "title": "Serwis w Cenie",
+        "description": "Wsparcie techniczne 24/7 i regularna konserwacja pojazdu"
+      },
+      "terms": {
+        "title": "Elastyczne Warunki",
+        "description": "Dostępne opcje wynajmu dziennego, tygodniowego lub miesięcznego"
+      }
+    },
+    "offer": {
+      "title": "Specjalna Oferta dla Nowych Kierowców",
+      "description": "Pierwszy tydzień w obniżonej cenie przy rejestracji w Kaukaz Partner",
+      "cta": "Poproś o Wycenę"
+    }
+  },
+  "reviews": {
+    "title": "Co Mówią Nasi Partnerzy",
+    "subtitle": "Prawdziwe doświadczenia prawdziwych ludzi"
+  },
+  "benefits": {
+    "title": "Dlaczego Kaukaz Partner?",
+    "subtitle": "Zapewniamy wszystko, czego potrzebujesz do udanej pracy w Polsce",
+    "items": {
+      "income": {
+        "title": "Stabilny Dochód",
+        "description": "Zarabiaj konkurencyjne stawki ze stałymi możliwościami pracy w Warszawie"
+      },
+      "legal": {
+        "title": "W Pełni Legalnie",
+        "description": "Cała praca jest w 100% oficjalna i zgodna z polskimi przepisami"
+      },
+      "start": {
+        "title": "Zacznij w Każdej Chwili",
+        "description": "Rozpocznij pracę natychmiast - bez okresów oczekiwania i skomplikowanych opóźnień"
+      },
+      "community": {
+        "title": "Wsparcie Społeczności",
+        "description": "Dołącz do sieci kierowców i kurierów, którzy pomagają sobie nawzajem"
+      },
+      "support": {
+        "title": "Wsparcie 24/7",
+        "description": "Całodobowa pomoc przy wszelkich pytaniach lub problemach"
+      },
+      "fees": {
+        "title": "Bez Ukrytych Opłat",
+        "description": "Przejrzyste ceny i jasne warunki - dostajesz to, co widzisz"
+      }
+    }
+  },
+  "about": {
+    "title": "O Kaukaz Partner",
+    "subtitle": "Twój zaufany partner w legalnym zatrudnieniu w Warszawie, Polska",
+    "mission": {
+      "title": "Nasza Misja",
+      "description": "Zapewnienie stabilnych, legalnych możliwości dochodu dla kierowców i kurierów w Warszawie z pełnym wsparciem i przejrzystością."
+    },
+    "commitment": {
+      "title": "Nasze Zobowiązanie",
+      "description": "100% legalna działalność, oficjalne licencje taxi i kurierskie oraz pełna zgodność z polskimi przepisami."
+    },
+    "community": {
+      "title": "Nasza Społeczność",
+      "description": "Dołącz do setek zadowolonych kierowców i kurierów, którzy zbudowali udane kariery z naszym wsparciem."
+    },
+    "cta": {
+      "title": "Zacznij Pracować w Polsce w Każdej Chwili",
+      "description": "Zajmujemy się całą dokumentacją, zapewniamy niezbędne wsparcie i pomagamy szybko i legalnie zacząć zarabiać. Niezależnie od tego, czy chcesz być kierowcą taxi czy kurierem, ułatwiamy to.",
+      "button": "Dołącz do Nas Dzisiaj"
+    }
+  },
+  "blog": {
+    "title": "Najnowsze z Naszego Bloga",
+    "subtitle": "Porady, przewodniki i spostrzeżenia dla kierowców i kurierów",
+    "readMore": "Czytaj Więcej"
+  },
+  "faq": {
+    "title": "Najczęściej Zadawane Pytania",
+    "subtitle": "Wszystko, co musisz wiedzieć o pracy z nami"
+  },
+  "contacts": {
+    "title": "Skontaktuj się z Nami",
+    "subtitle": "Gotowy rozpocząć swoją podróż? Skontaktuj się z nami już dziś",
+    "info": {
+      "title": "Informacje Kontaktowe",
+      "location": {
+        "title": "Lokalizacja",
+        "value": "Warszawa, Polska"
+      },
+      "phone": {
+        "title": "Telefon"
+      },
+      "email": {
+        "title": "Email"
+      },
+      "hours": {
+        "title": "Godziny Pracy",
+        "value": "Poniedziałek - Niedziela: 9:00 - 21:00",
+        "support": "Wsparcie 24/7"
+      }
+    },
+    "form": {
+      "title": "Rozpocznij Aplikację",
+      "name": "Twoje Imię i Nazwisko",
+      "email": "Twój Email",
+      "phone": "Twój Numer Telefonu",
+      "interest": "Co Cię interesuje?",
+      "options": {
+        "driver": "Stanowisko Kierowcy",
+        "courier": "Stanowisko Kuriera",
+        "rental": "Wynajem Samochodu",
+        "other": "Inne"
+      },
+      "message": "Opowiedz nam o sobie lub zadaj pytania...",
+      "submit": "Wyślij Aplikację",
+      "privacy": "Szanujemy Twoją prywatność. Twoje dane są u nas bezpieczne.",
+      "success": {
+        "title": "Dziękujemy!",
+        "message": "Skontaktujemy się z Tobą wkrótce, aby omówić Twoją aplikację."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Twój zaufany partner w stabilnym dochodzie w Warszawie, Polska",
+    "rights": "Wszelkie prawa zastrzeżone."
+  }
+}

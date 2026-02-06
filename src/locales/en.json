@@ -1,0 +1,200 @@
+{
+  "nav": {
+    "work": "Work",
+    "carRental": "Car Rental",
+    "aboutUs": "About Us",
+    "blog": "Blog",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "trustSignal": "Trusted by 1000+ drivers and couriers",
+    "title": "Flexible Work in Warsaw",
+    "titleAccent": "Earn Legally",
+    "subtitle": "Drive for Uber, Bolt, FreeNow or deliver with Wolt, Glovo. Official, legal, stable income.",
+    "cta": "Start Working Today",
+    "learnMore": "Learn More",
+    "features": {
+      "official": "Official & Legal",
+      "flexible": "Flexible Schedule",
+      "support": "24/7 Support"
+    }
+  },
+  "work": {
+    "title": "Work Opportunities",
+    "subtitle": "Choose your path to stable income",
+    "driver": {
+      "title": "Driver",
+      "type": "Taxi Services",
+      "description": "Become an official taxi driver in Warsaw with full legal support and competitive earnings.",
+      "income": "Stable Income",
+      "hours": "Flexible Hours"
+    },
+    "courier": {
+      "title": "Courier",
+      "type": "Delivery Services",
+      "description": "Join the delivery industry with flexible hours and consistent earnings in Warsaw.",
+      "income": "Daily Payouts",
+      "hours": "Work Anytime"
+    },
+    "getStarted": "Get Started"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Start your journey in 4 simple steps",
+    "steps": [
+      {
+        "title": "Application",
+        "description": "Submit your application through our simple online form. No complicated paperwork required."
+      },
+      {
+        "title": "Verification",
+        "description": "We verify your documents and help you complete all official requirements for legal work in Poland."
+      },
+      {
+        "title": "Training & Setup",
+        "description": "Get onboarded with the platforms, receive training, and access our car rental if needed."
+      },
+      {
+        "title": "Start Earning",
+        "description": "Begin working immediately with full support and stable income opportunities in Warsaw."
+      }
+    ]
+  },
+  "carRental": {
+    "title": "Car Rental Service",
+    "subtitle": "Don't have a car? No problem! Rent a vehicle from us and start working immediately.",
+    "features": {
+      "fleet": {
+        "title": "Modern Fleet",
+        "description": "Well-maintained vehicles suitable for Uber, Bolt, and FreeNow"
+      },
+      "insurance": {
+        "title": "Full Insurance",
+        "description": "Comprehensive insurance coverage included in rental"
+      },
+      "maintenance": {
+        "title": "Maintenance Included",
+        "description": "24/7 technical support and regular vehicle maintenance"
+      },
+      "terms": {
+        "title": "Flexible Terms",
+        "description": "Daily, weekly, or monthly rental options available"
+      }
+    },
+    "offer": {
+      "title": "Special Offer for New Drivers",
+      "description": "Get your first week at a discounted rate when you sign up with Kaukaz Partner",
+      "cta": "Request a Quote"
+    }
+  },
+  "reviews": {
+    "title": "What Our Partners Say",
+    "subtitle": "Real experiences from real people"
+  },
+  "benefits": {
+    "title": "Why Choose Kaukaz Partner?",
+    "subtitle": "We provide everything you need for successful work in Poland",
+    "items": {
+      "income": {
+        "title": "Stable Income",
+        "description": "Earn competitive rates with consistent work opportunities in Warsaw"
+      },
+      "legal": {
+        "title": "Fully Legal",
+        "description": "All work is 100% official and compliant with Polish regulations"
+      },
+      "start": {
+        "title": "Start Anytime",
+        "description": "Begin working immediately - no waiting periods or complicated delays"
+      },
+      "community": {
+        "title": "Community Support",
+        "description": "Join a network of drivers and couriers who help each other succeed"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Round-the-clock assistance for any questions or issues you encounter"
+      },
+      "fees": {
+        "title": "No Hidden Fees",
+        "description": "Transparent pricing and clear terms - what you see is what you get"
+      }
+    }
+  },
+  "about": {
+    "title": "About Kaukaz Partner",
+    "subtitle": "Your trusted partner for legal employment opportunities in Warsaw, Poland",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide stable, legal income opportunities for drivers and couriers in Warsaw with full support and transparency."
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "description": "100% legal operations, official taxi and courier licenses, and complete compliance with Polish regulations."
+    },
+    "community": {
+      "title": "Our Community",
+      "description": "Join hundreds of satisfied drivers and couriers who have built successful careers with our support."
+    },
+    "cta": {
+      "title": "Start Working Anytime in Poland",
+      "description": "We handle all the paperwork, provide the necessary support, and help you start earning quickly and legally. Whether you want to be a taxi driver or courier, we make it simple and straightforward.",
+      "button": "Join Us Today"
+    }
+  },
+  "blog": {
+    "title": "Latest from Our Blog",
+    "subtitle": "Tips, guides, and insights for drivers and couriers",
+    "readMore": "Read More"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about working with us"
+  },
+  "contacts": {
+    "title": "Contact Us",
+    "subtitle": "Ready to start your journey? Connect with us today",
+    "info": {
+      "title": "Contact Information",
+      "location": {
+        "title": "Location",
+        "value": "Warsaw, Poland"
+      },
+      "phone": {
+        "title": "Phone"
+      },
+      "email": {
+        "title": "Email"
+      },
+      "hours": {
+        "title": "Working Hours",
+        "value": "Monday - Sunday: 9:00 - 21:00",
+        "support": "24/7 Support Available"
+      }
+    },
+    "form": {
+      "title": "Start Your Application",
+      "name": "Your Full Name",
+      "email": "Your Email",
+      "phone": "Your Phone Number",
+      "interest": "What interests you?",
+      "options": {
+        "driver": "Driver Position",
+        "courier": "Courier Position",
+        "rental": "Car Rental",
+        "other": "Other"
+      },
+      "message": "Tell us about yourself or any questions...",
+      "submit": "Submit Application",
+      "privacy": "We respect your privacy. Your data is secure with us.",
+      "success": {
+        "title": "Thank You!",
+        "message": "We'll contact you shortly to discuss your application."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Your trusted partner for stable income in Warsaw, Poland",
+    "rights": "All rights reserved."
+  }
+}

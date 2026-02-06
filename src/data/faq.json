@@ -1,0 +1,104 @@
+{
+  "en": [
+    {
+      "question": "Do I need my own car to start working?",
+      "answer": "No! We offer car rental services with flexible terms. You can start working immediately with one of our well-maintained vehicles."
+    },
+    {
+      "question": "Is everything legal and official?",
+      "answer": "Absolutely. We ensure all work is 100% compliant with Polish law. You will work officially as a taxi driver or courier with proper documentation."
+    },
+    {
+      "question": "How quickly can I start earning?",
+      "answer": "You can start working within a few days after completing the verification process and onboarding. We help expedite all necessary paperwork."
+    },
+    {
+      "question": "What documents do I need?",
+      "answer": "You will need a valid ID, driver's license, and legal right to work in Poland. We will guide you through the complete requirements during application."
+    },
+    {
+      "question": "Can I work for multiple platforms?",
+      "answer": "Yes! Many of our partners work for multiple platforms simultaneously (Uber, Bolt, FreeNow, Wolt, Glovo) to maximize their earnings."
+    },
+    {
+      "question": "What support do you provide?",
+      "answer": "We offer 24/7 support, help with documentation, platform onboarding, car rental, maintenance assistance, and a community of experienced drivers."
+    },
+    {
+      "question": "Are there any hidden fees?",
+      "answer": "No. We believe in transparency. All costs and terms are clearly explained upfront with no hidden charges."
+    },
+    {
+      "question": "Can I start working part-time?",
+      "answer": "Absolutely! You have complete flexibility to work as much or as little as you want. Many partners start part-time and transition to full-time."
+    }
+  ],
+  "pl": [
+    {
+      "question": "Czy potrzebuję własnego samochodu, żeby zacząć pracę?",
+      "answer": "Nie! Oferujemy wynajem samochodów na elastycznych warunkach. Możesz zacząć pracować natychmiast jednym z naszych zadbanych pojazdów."
+    },
+    {
+      "question": "Czy wszystko jest legalne i oficjalne?",
+      "answer": "Absolutnie. Zapewniamy, że cała praca jest w 100% zgodna z polskim prawem. Będziesz pracować oficjalnie jako kierowca taxi lub kurier z odpowiednią dokumentacją."
+    },
+    {
+      "question": "Jak szybko mogę zacząć zarabiać?",
+      "answer": "Możesz zacząć pracować w ciągu kilku dni po zakończeniu procesu weryfikacji i wdrożenia. Pomagamy przyspieszyć wszystkie niezbędne formalności."
+    },
+    {
+      "question": "Jakie dokumenty są potrzebne?",
+      "answer": "Potrzebujesz ważnego dokumentu tożsamości, prawa jazdy i legalnego prawa do pracy w Polsce. Przeprowadzimy Cię przez wszystkie wymagania podczas aplikacji."
+    },
+    {
+      "question": "Czy mogę pracować dla wielu platform?",
+      "answer": "Tak! Wielu naszych partnerów pracuje jednocześnie dla wielu platform (Uber, Bolt, FreeNow, Wolt, Glovo), aby zmaksymalizować swoje zarobki."
+    },
+    {
+      "question": "Jakie wsparcie oferujecie?",
+      "answer": "Oferujemy wsparcie 24/7, pomoc z dokumentacją, wdrożenie na platformy, wynajem samochodów, pomoc serwisową i społeczność doświadczonych kierowców."
+    },
+    {
+      "question": "Czy są jakieś ukryte opłaty?",
+      "answer": "Nie. Wierzymy w przejrzystość. Wszystkie koszty i warunki są jasno wyjaśnione z góry bez ukrytych opłat."
+    },
+    {
+      "question": "Czy mogę pracować na część etatu?",
+      "answer": "Oczywiście! Masz pełną elastyczność, aby pracować tyle, ile chcesz. Wielu partnerów zaczyna od pracy na część etatu i przechodzi na pełny etat."
+    }
+  ],
+  "ru": [
+    {
+      "question": "Нужен ли мне собственный автомобиль для начала работы?",
+      "answer": "Нет! Мы предлагаем аренду автомобилей на гибких условиях. Вы можете начать работать сразу на одном из наших ухоженных автомобилей."
+    },
+    {
+      "question": "Всё ли легально и официально?",
+      "answer": "Абсолютно. Мы гарантируем, что вся работа на 100% соответствует польскому законодательству. Вы будете работать официально как водитель такси или курьер с надлежащей документацией."
+    },
+    {
+      "question": "Как быстро я смогу начать зарабатывать?",
+      "answer": "Вы можете начать работать в течение нескольких дней после завершения процесса проверки и регистрации. Мы помогаем ускорить все необходимые формальности."
+    },
+    {
+      "question": "Какие документы мне нужны?",
+      "answer": "Вам понадобится действующее удостоверение личности, водительские права и легальное право на работу в Польше. Мы проведём вас через все требования во время подачи заявки."
+    },
+    {
+      "question": "Могу ли я работать на нескольких платформах?",
+      "answer": "Да! Многие наши партнёры работают одновременно на нескольких платформах (Uber, Bolt, FreeNow, Wolt, Glovo), чтобы максимизировать свой заработок."
+    },
+    {
+      "question": "Какую поддержку вы предоставляете?",
+      "answer": "Мы предлагаем поддержку 24/7, помощь с документацией, регистрацию на платформах, аренду автомобилей, техническую помощь и сообщество опытных водителей."
+    },
+    {
+      "question": "Есть ли скрытые платежи?",
+      "answer": "Нет. Мы верим в прозрачность. Все расходы и условия чётко объясняются заранее без скрытых сборов."
+    },
+    {
+      "question": "Могу ли я начать работать на неполный рабочий день?",
+      "answer": "Конечно! У вас полная гибкость работать столько, сколько хотите. Многие партнёры начинают с частичной занятости и переходят на полную."
+    }
+  ]
+}

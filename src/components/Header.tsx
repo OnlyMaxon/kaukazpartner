@@ -34,31 +34,31 @@ export default function Header() {
               onClick={() => scrollToSection('work')}
               className="text-kaukaz-milk hover:text-kaukaz-accent transition-colors text-sm font-medium"
             >
-              {t('work')}
+              {t('nav.work')}
             </button>
             <button
               onClick={() => scrollToSection('rental')}
               className="text-kaukaz-milk hover:text-kaukaz-accent transition-colors text-sm font-medium"
             >
-              {t('carRental')}
+              {t('nav.carRental')}
             </button>
             <button
               onClick={() => scrollToSection('about')}
               className="text-kaukaz-milk hover:text-kaukaz-accent transition-colors text-sm font-medium"
             >
-              {t('aboutUs')}
+              {t('nav.aboutUs')}
             </button>
             <button
               onClick={() => scrollToSection('blog')}
               className="text-kaukaz-milk hover:text-kaukaz-accent transition-colors text-sm font-medium"
             >
-              {t('blog')}
+              {t('nav.blog')}
             </button>
             <button
               onClick={() => scrollToSection('contacts')}
               className="text-kaukaz-milk hover:text-kaukaz-accent transition-colors text-sm font-medium"
             >
-              {t('contacts')}
+              {t('nav.contacts')}
             </button>
           </nav>
 
@@ -111,31 +111,31 @@ export default function Header() {
               onClick={() => scrollToSection('work')}
               className="block w-full text-left text-kaukaz-milk hover:text-kaukaz-accent transition-colors py-2 text-sm"
             >
-              {t('work')}
+              {t('nav.work')}
             </button>
             <button
               onClick={() => scrollToSection('rental')}
               className="block w-full text-left text-kaukaz-milk hover:text-kaukaz-accent transition-colors py-2 text-sm"
             >
-              {t('carRental')}
+              {t('nav.carRental')}
             </button>
             <button
               onClick={() => scrollToSection('about')}
               className="block w-full text-left text-kaukaz-milk hover:text-kaukaz-accent transition-colors py-2 text-sm"
             >
-              {t('aboutUs')}
+              {t('nav.aboutUs')}
             </button>
             <button
               onClick={() => scrollToSection('blog')}
               className="block w-full text-left text-kaukaz-milk hover:text-kaukaz-accent transition-colors py-2 text-sm"
             >
-              {t('blog')}
+              {t('nav.blog')}
             </button>
             <button
               onClick={() => scrollToSection('contacts')}
               className="block w-full text-left text-kaukaz-milk hover:text-kaukaz-accent transition-colors py-2 text-sm"
             >
-              {t('contacts')}
+              {t('nav.contacts')}
             </button>
 
             <div className="border-t border-kaukaz-accent/20 pt-3 mt-3">

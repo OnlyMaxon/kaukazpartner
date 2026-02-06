@@ -5,7 +5,7 @@ export default function Work() {
   const { t } = useLanguage();
 
   const driverOptions = ['Uber', 'Bolt', 'FreeNow'];
-  const courierOptions = ['Wolt', 'Glovo', 'Uber'];
+  const courierOptions = ['Wolt', 'Glovo', 'Uber Eats'];
 
   const scrollToContacts = () => {
     const element = document.getElementById('contacts');
@@ -19,10 +19,10 @@ export default function Work() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-kaukaz-black mb-4">
-            {t('work')} Opportunities
+            {t('work.title')}
           </h2>
           <p className="text-lg text-kaukaz-black/70">
-            Choose your path to stable income
+            {t('work.subtitle')}
           </p>
         </div>
 
@@ -33,23 +33,23 @@ export default function Work() {
                 <Car size={32} className="text-kaukaz-accent group-hover:text-kaukaz-white" />
               </div>
               <div>
-                <h3 className="text-3xl font-bold text-kaukaz-black">{t('driver')}</h3>
-                <p className="text-sm text-kaukaz-accent font-semibold">Taxi Services</p>
+                <h3 className="text-3xl font-bold text-kaukaz-black">{t('work.driver.title')}</h3>
+                <p className="text-sm text-kaukaz-accent font-semibold">{t('work.driver.type')}</p>
               </div>
             </div>
 
             <p className="text-kaukaz-black/70 mb-6">
-              Become an official taxi driver in Warsaw with full legal support and competitive earnings.
+              {t('work.driver.description')}
             </p>
 
             <div className="flex gap-4 mb-6 text-sm">
               <div className="flex items-center gap-2">
                 <DollarSign size={18} className="text-kaukaz-accent" />
-                <span className="text-kaukaz-black font-medium">Stable Income</span>
+                <span className="text-kaukaz-black font-medium">{t('work.driver.income')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <Clock size={18} className="text-kaukaz-accent" />
-                <span className="text-kaukaz-black font-medium">Flexible Hours</span>
+                <span className="text-kaukaz-black font-medium">{t('work.driver.hours')}</span>
               </div>
             </div>
 
@@ -69,7 +69,7 @@ export default function Work() {
               onClick={scrollToContacts}
               className="w-full group/btn px-6 py-3 bg-kaukaz-accent text-kaukaz-black font-bold rounded-lg hover:bg-kaukaz-black hover:text-kaukaz-accent transition-all border-2 border-kaukaz-accent flex items-center justify-center gap-2"
             >
-              {t('getStarted')}
+              {t('work.getStarted')}
               <ArrowRight size={18} className="group-hover/btn:translate-x-1 transition-transform" />
             </button>
           </div>
@@ -80,23 +80,23 @@ export default function Work() {
                 <Package size={32} className="text-kaukaz-accent group-hover:text-kaukaz-white" />
               </div>
               <div>
-                <h3 className="text-3xl font-bold text-kaukaz-black">{t('courier')}</h3>
-                <p className="text-sm text-kaukaz-accent font-semibold">Delivery Services</p>
+                <h3 className="text-3xl font-bold text-kaukaz-black">{t('work.courier.title')}</h3>
+                <p className="text-sm text-kaukaz-accent font-semibold">{t('work.courier.type')}</p>
               </div>
             </div>
 
             <p className="text-kaukaz-black/70 mb-6">
-              Join the delivery industry with flexible hours and consistent earnings in Warsaw.
+              {t('work.courier.description')}
             </p>
 
             <div className="flex gap-4 mb-6 text-sm">
               <div className="flex items-center gap-2">
                 <DollarSign size={18} className="text-kaukaz-accent" />
-                <span className="text-kaukaz-black font-medium">Daily Payouts</span>
+                <span className="text-kaukaz-black font-medium">{t('work.courier.income')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <Clock size={18} className="text-kaukaz-accent" />
-                <span className="text-kaukaz-black font-medium">Work Anytime</span>
+                <span className="text-kaukaz-black font-medium">{t('work.courier.hours')}</span>
               </div>
             </div>
 
@@ -116,7 +116,7 @@ export default function Work() {
               onClick={scrollToContacts}
               className="w-full group/btn px-6 py-3 bg-kaukaz-accent text-kaukaz-black font-bold rounded-lg hover:bg-kaukaz-black hover:text-kaukaz-accent transition-all border-2 border-kaukaz-accent flex items-center justify-center gap-2"
             >
-              {t('getStarted')}
+              {t('work.getStarted')}
               <ArrowRight size={18} className="group-hover/btn:translate-x-1 transition-transform" />
             </button>
           </div>

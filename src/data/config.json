@@ -1,0 +1,32 @@
+{
+  "company": {
+    "name": "Kaukaz Partner",
+    "email": "info@kaukazpartner.pl",
+    "phone": "+48 123 456 789",
+    "whatsapp": "+48123456789",
+    "telegram": "kaukazpartner",
+    "location": {
+      "city": "Warsaw",
+      "country": "Poland",
+      "address": ""
+    },
+    "workingHours": {
+      "days": "Monday - Sunday",
+      "hours": "9:00 - 21:00"
+    },
+    "social": {
+      "facebook": "",
+      "instagram": "",
+      "telegram": ""
+    }
+  },
+  "platforms": {
+    "driver": ["Uber", "Bolt", "FreeNow"],
+    "courier": ["Wolt", "Glovo", "Uber Eats"]
+  },
+  "stats": {
+    "partnersCount": "1000+",
+    "yearsExperience": "5+",
+    "carsInFleet": "50+"
+  }
+}

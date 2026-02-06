@@ -1,42 +1,20 @@
 import { Star } from 'lucide-react';
+import { useLanguage, type Language } from '../context/LanguageContext';
+import reviewsData from '../data/reviews.json';
 
 export default function Reviews() {
-  const reviews = [
-    {
-      name: 'Dmitry K.',
-      role: 'Uber Driver',
-      rating: 5,
-      text: 'Kaukaz Partner helped me start working legally in Warsaw within a week. Great support and transparent process!',
-    },
-    {
-      name: 'Anna M.',
-      role: 'Wolt Courier',
-      rating: 5,
-      text: 'Finally found a company that actually helps. All documents sorted, started earning immediately. Highly recommend!',
-    },
-    {
-      name: 'Sergei P.',
-      role: 'Bolt Driver',
-      rating: 5,
-      text: 'The car rental service is excellent. Clean cars, fair prices, and 24/7 support. Perfect for newcomers.',
-    },
-    {
-      name: 'Maria L.',
-      role: 'Glovo Courier',
-      rating: 5,
-      text: 'Professional team that really cares. They explained everything clearly and helped me with all paperwork.',
-    },
-  ];
+  const { t, language } = useLanguage();
+  const reviews = reviewsData[language as Language];
 
   return (
     <section className="py-20 bg-kaukaz-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-kaukaz-white mb-4">
-            What Our Partners Say
+            {t('reviews.title')}
           </h2>
           <p className="text-xl text-kaukaz-milk">
-            Real experiences from real people
+            {t('reviews.subtitle')}
           </p>
         </div>
 

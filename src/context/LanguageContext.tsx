@@ -1,138 +1,64 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState, useEffect, useCallback } from 'react';
+import en from '../locales/en.json';
+import pl from '../locales/pl.json';
+import ru from '../locales/ru.json';
 
 export type Language = 'en' | 'pl' | 'ru';
 
-interface Translations {
-  [key: string]: {
-    en: string;
-    pl: string;
-    ru: string;
-  };
-}
-
-export const translations: Translations = {
-  heroTitle: {
-    en: 'Flexible Work in Warsaw',
-    pl: 'Elastyczna Praca w Warszawie',
-    ru: 'Гибкая работа в Варшаве',
-  },
-  heroSubtitle: {
-    en: 'Drive for Uber, Bolt, FreeNow or deliver with Wolt, Glovo. Official, legal, stable income.',
-    pl: 'Jeź dla Ubera, Bolta, FreeNow lub dostarczaj z Woltem, Glovo. Oficjalnie, legalnie, stabilny dochód.',
-    ru: 'Работайте на Uber, Bolt, FreeNow или доставляйте с Wolt, Glovo. Официально, легально, стабильный доход.',
-  },
-  startWorking: {
-    en: 'Start Working Today',
-    pl: 'Zacznij Pracować Dzisiaj',
-    ru: 'Начните Работать Сегодня',
-  },
-  learnMore: {
-    en: 'Learn More',
-    pl: 'Dowiedz się Więcej',
-    ru: 'Узнать Больше',
-  },
-  work: {
-    en: 'Work',
-    pl: 'Praca',
-    ru: 'Работа',
-  },
-  carRental: {
-    en: 'Car Rental',
-    pl: 'Wynajem Samochodu',
-    ru: 'Аренда Автомобиля',
-  },
-  aboutUs: {
-    en: 'About Us',
-    pl: 'O Nas',
-    ru: 'О Нас',
-  },
-  blog: {
-    en: 'Blog',
-    pl: 'Blog',
-    ru: 'Блог',
-  },
-  contacts: {
-    en: 'Contacts',
-    pl: 'Kontakty',
-    ru: 'Контакты',
-  },
-  driver: {
-    en: 'Driver',
-    pl: 'Kierowca',
-    ru: 'Водитель',
-  },
-  courier: {
-    en: 'Courier',
-    pl: 'Kurier',
-    ru: 'Курьер',
-  },
-  ourMission: {
-    en: 'Our Mission',
-    pl: 'Nasza Misja',
-    ru: 'Наша Миссия',
-  },
-  whyChooseUs: {
-    en: 'Why Choose Kaukaz Partner?',
-    pl: 'Dlaczego wybrać Kaukaz Partner?',
-    ru: 'Почему выбрать Kaukaz Partner?',
-  },
-  stableIncome: {
-    en: 'Stable Income',
-    pl: 'Stabilny Dochód',
-    ru: 'Стабильный Доход',
-  },
-  officialWork: {
-    en: 'Official & Legal',
-    pl: 'Oficjalnie i Legalnie',
-    ru: 'Официально и Легально',
-  },
-  support24: {
-    en: '24/7 Support',
-    pl: 'Wsparcie 24/7',
-    ru: 'Поддержка 24/7',
-  },
-  flexibleSchedule: {
-    en: 'Flexible Schedule',
-    pl: 'Elastyczny Harmonogram',
-    ru: 'Гибкий График',
-  },
-  trustSignal: {
-    en: 'Trusted by 1000+ drivers and couriers',
-    pl: 'Zaufane przez 1000+ kierowców i kurierów',
-    ru: 'Доверие 1000+ водителей и курьеров',
-  },
-  faq: {
-    en: 'Frequently Asked Questions',
-    pl: 'Najczęściej Zadawane Pytania',
-    ru: 'Часто Задаваемые Вопросы',
-  },
-  contactUs: {
-    en: 'Contact Us',
-    pl: 'Skontaktuj się z Nami',
-    ru: 'Свяжитесь с Нами',
-  },
-  getStarted: {
-    en: 'Get Started',
-    pl: 'Rozpocznij',
-    ru: 'Начать',
-  },
-};
+const translations = { en, pl, ru };
 
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
-  t: (key: string) => string;
+  t: (path: string) => string;
 }
 
 export const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>('en');
+function getNestedValue(obj: Record<string, unknown>, path: string): string {
+  const keys = path.split('.');
+  let result: unknown = obj;
+  
+  for (const key of keys) {
+    if (result && typeof result === 'object' && key in result) {
+      result = (result as Record<string, unknown>)[key];
+    } else {
+      return path;
+    }
+  }
+  
+  return typeof result === 'string' ? result : path;
+}
 
-  const t = (key: string): string => {
-    const translationObj = translations[key as keyof typeof translations];
-    return translationObj?.[language] || key;
-  };
+function detectBrowserLanguage(): Language {
+  const browserLang = navigator.language.split('-')[0];
+  if (browserLang === 'pl') return 'pl';
+  if (browserLang === 'ru' || browserLang === 'uk' || browserLang === 'be') return 'ru';
+  return 'en';
+}
+
+export function LanguageProvider({ children }: { children: React.ReactNode }) {
+  const [language, setLanguageState] = useState<Language>(() => {
+    const saved = localStorage.getItem('kaukaz-language');
+    if (saved && ['en', 'pl', 'ru'].includes(saved)) {
+      return saved as Language;
+    }
+    return detectBrowserLanguage();
+  });
+
+  const setLanguage = useCallback((lang: Language) => {
+    setLanguageState(lang);
+    localStorage.setItem('kaukaz-language', lang);
+    document.documentElement.lang = lang;
+  }, []);
+
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, [language]);
+
+  const t = useCallback((path: string): string => {
+    return getNestedValue(translations[language] as Record<string, unknown>, path);
+  }, [language]);
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage, t }}>

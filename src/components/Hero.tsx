@@ -21,16 +21,16 @@ export default function Hero() {
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="mb-8 inline-flex items-center gap-2 px-4 py-2 bg-kaukaz-accent/10 border border-kaukaz-accent/30 rounded-full">
           <Users size={16} className="text-kaukaz-accent" />
-          <span className="text-sm font-medium text-kaukaz-accent">{t('trustSignal')}</span>
+          <span className="text-sm font-medium text-kaukaz-accent">{t('hero.trustSignal')}</span>
         </div>
 
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-kaukaz-white mb-6 leading-tight">
-          {t('heroTitle')}
-          <span className="block text-kaukaz-accent">Earn Legally</span>
+          {t('hero.title')}
+          <span className="block text-kaukaz-accent">{t('hero.titleAccent')}</span>
         </h1>
 
         <p className="text-lg md:text-xl text-kaukaz-milk mb-8 max-w-3xl mx-auto leading-relaxed">
-          {t('heroSubtitle')}
+          {t('hero.subtitle')}
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -38,14 +38,14 @@ export default function Hero() {
             onClick={() => scrollToSection('work')}
             className="group px-8 py-4 bg-kaukaz-accent text-kaukaz-black font-bold rounded-lg hover:bg-kaukaz-white transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
           >
-            {t('startWorking')}
+            {t('hero.cta')}
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </button>
           <button
             onClick={() => scrollToSection('rental')}
             className="px-8 py-4 border-2 border-kaukaz-accent text-kaukaz-accent font-bold rounded-lg hover:bg-kaukaz-accent hover:text-kaukaz-black transition-all duration-300"
           >
-            {t('learnMore')}
+            {t('hero.learnMore')}
           </button>
         </div>
 
@@ -54,19 +54,19 @@ export default function Hero() {
             <div className="flex justify-center mb-2">
               <CheckCircle size={24} className="text-kaukaz-accent" />
             </div>
-            <p className="text-sm text-kaukaz-milk">Official & Legal</p>
+            <p className="text-sm text-kaukaz-milk">{t('hero.features.official')}</p>
           </div>
           <div className="text-center">
             <div className="flex justify-center mb-2">
               <CheckCircle size={24} className="text-kaukaz-accent" />
             </div>
-            <p className="text-sm text-kaukaz-milk">Flexible Schedule</p>
+            <p className="text-sm text-kaukaz-milk">{t('hero.features.flexible')}</p>
           </div>
           <div className="text-center">
             <div className="flex justify-center mb-2">
               <CheckCircle size={24} className="text-kaukaz-accent" />
             </div>
-            <p className="text-sm text-kaukaz-milk">24/7 Support</p>
+            <p className="text-sm text-kaukaz-milk">{t('hero.features.support')}</p>
           </div>
         </div>
       </div>
